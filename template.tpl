@@ -43,7 +43,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
 
-const url = 'https://static.cleverpush.com/channel/loader/{{channelId}}.js';
+const url = 'https://static.cleverpush.com/channel/loader/' + data.channelId + '.js';
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
