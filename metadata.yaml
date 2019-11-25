@@ -15,5 +15,5 @@
 homepage: "https://cleverpush.com"
 documentation: "https://developers.cleverpush.com"
 versions:
-- sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+- sha: b03f4a9f608517f84be2e8c3b2fd3a15177f1395
   changeNotes: Initial Version
